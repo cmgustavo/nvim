@@ -23,6 +23,7 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     --["<leader>a"] = { "<cmd> echo 'Hello World!'<cr>", desc = "Say Hello World!" }
+    ["<leader><tab>"] = { ":b#<CR>", desc = "Switch to lastest buffer" },
   },
   t = {
     -- setting a mapping to false will disable it
